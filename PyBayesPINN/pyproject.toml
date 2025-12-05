@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybayespinn"
+version = "0.1.0"
+authors = [
+  { name="Anshuman Sahoo", email="anshuman.sahoo@driems.ac.in" },
+]
+description = "A Bayesian Physics-Informed Neural Network Library with Uncertainty Quantification"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy",
+    "torch>=2.0.0",
+    "matplotlib",
+    "scipy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/anshuman-sahoo1999/PyBayesPINN"
